@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+}
+
+.gallery-cointainer1, .customerequests-container1, .giftcertificates-container1{
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+
+td{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.gallery-img{
+    height: auto;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.gift-img{
+    width: auto;
+    height: auto;
+}
