@@ -554,8 +554,8 @@ textarea {
   .main-navigation ul {
     display: none;
     list-style: none;
-    margin: 0;
-    padding-left: 0; }
+    margin: 50px 0px 50px 50px;
+    padding: 10px 0px 10px 10px; }
     .main-navigation ul ul {
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
       float: left;
@@ -575,10 +575,20 @@ textarea {
     .main-navigation ul li.focus > ul {
       left: auto; }
   .main-navigation li {
-    position: relative; }
+    position: relative;
+    padding: 10px; }
+    .main-navigation li:hover > a, .main-navigation li.focus > a {
+      color: white; }
   .main-navigation a {
     display: block;
-    text-decoration: none; }
+    text-decoration: none;
+    color: tan;
+    font-weight: bolder; }
+  .main-navigation .current_page_item > a,
+  .main-navigation .current-menu-item > a,
+  .main-navigation .current_page_ancestor > a,
+  .main-navigation .current-menu-ancestor > a {
+    text-decoration: underline; }
 
 /* Small menu. */
 .menu-toggle,
@@ -788,7 +798,7 @@ textarea {
 --------------------------------------------- */
 .site-header {
   padding: 1em;
-  background-color: #fff;
+  background-color: black;
   display: flex;
   margin: 0; }
 
