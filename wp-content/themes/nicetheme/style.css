@@ -351,7 +351,7 @@ input,
 select,
 optgroup,
 textarea {
-  color: #404040;
+  color: antiquewhite;
   font-family: "Trebuchet MS", sans-serif;
   font-size: 1rem;
   line-height: 1.5; }
@@ -364,6 +364,9 @@ h5,
 h6 {
   clear: both;
   font-family: "Trebuchet MS", sans-serif; }
+
+h1 {
+  color: black; }
 
 p {
   margin-bottom: 1.5em; }
@@ -411,7 +414,7 @@ big {
 /* Elements
 --------------------------------------------- */
 body {
-  background: #fff; }
+  background: linear-gradient(347deg, black 1%, tan 85%); }
 
 hr {
   background-color: #ccc;
@@ -460,11 +463,11 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-  color: #4169e1; }
+  color: black; }
   a:visited {
-    color: #800080; }
+    color: black; }
   a:hover, a:focus, a:active {
-    color: #191970; }
+    color: DarkSalmon; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
