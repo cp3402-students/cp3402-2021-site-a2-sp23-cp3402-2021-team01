@@ -76,7 +76,8 @@ body {
  * Render the `main` element consistently in IE.
  */
 main {
-  display: block; }
+  display: block;
+  padding: 0 40px 20px; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
