@@ -349,10 +349,15 @@ html {
 body,
 button,
 input,
-select,
 optgroup,
 textarea {
   color: antiquewhite;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5; }
+
+select {
+  color: sienna;
   font-family: "Trebuchet MS", sans-serif;
   font-size: 1rem;
   line-height: 1.5; }
@@ -366,7 +371,7 @@ h6 {
   clear: both;
   font-family: "Trebuchet MS", sans-serif; }
 
-h1 {
+h1, h2 {
   color: black; }
 
 p {
