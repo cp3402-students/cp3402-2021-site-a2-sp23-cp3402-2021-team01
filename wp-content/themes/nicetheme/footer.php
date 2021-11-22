@@ -12,6 +12,19 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+
+        <nav id="secondary-navigation" class="secondary-navigation">
+            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Secondary Menu', 'wordpress_test' ); ?></button>
+            <?php
+            wp_nav_menu(
+                array(
+                    'theme_location' => 'menu-2',
+                    'menu_id'        => 'secondary-menu',
+                )
+            );
+            ?>
+        </nav><!-- #site-navigation -->
+
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'nicetheme' ) ); ?>">
 				<?php
