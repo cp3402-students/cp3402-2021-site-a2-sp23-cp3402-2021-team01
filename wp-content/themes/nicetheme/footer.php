@@ -23,7 +23,7 @@
                 )
             );
             ?>
-        </nav><!-- #site-navigation -->
+        </nav><!-- #secondary-navigation -->
 
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'nicetheme' ) ); ?>">
@@ -35,7 +35,7 @@
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'nicetheme' ), 'nicetheme', '<a href="https://github.com/ADITIAILAWADHI">ADITIAILAWADHI</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'nicetheme' ), 'nicetheme', '<a href="https://github.com/cp3402-students/cp3402-2021-site-a2-sp23-cp3402-2021-team01">Team 1</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

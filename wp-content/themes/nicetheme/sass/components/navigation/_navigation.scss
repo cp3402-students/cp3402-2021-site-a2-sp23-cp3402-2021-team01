@@ -51,7 +51,8 @@
 
 	li {
 		position: relative;
-		padding: 10px;
+		padding: 9px;
+		font-size: smaller;
 
 		&:hover > a,
 		&.focus > a {
@@ -71,6 +72,7 @@
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
 		text-decoration: underline;
+		color: $color__menu-li;
 	}
 }
 

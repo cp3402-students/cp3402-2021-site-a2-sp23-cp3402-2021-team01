@@ -420,7 +420,7 @@ big {
 /* Elements
 --------------------------------------------- */
 body {
-  background: linear-gradient(347deg, black 1%, tan 85%); }
+  background: linear-gradient(347deg, black 1%, tan 78%, pink); }
 
 hr {
   background-color: #ccc;
@@ -473,7 +473,7 @@ a {
   a:visited {
     color: black; }
   a:hover, a:focus, a:active {
-    color: DarkSalmon; }
+    color: white; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -586,19 +586,21 @@ textarea {
       left: auto; }
   .main-navigation li {
     position: relative;
-    padding: 10px; }
+    padding: 9px;
+    font-size: smaller; }
     .main-navigation li:hover > a, .main-navigation li.focus > a {
       color: white; }
   .main-navigation a {
     display: block;
     text-decoration: none;
-    color: tan;
+    color: #7ee9e9;
     font-weight: bolder; }
   .main-navigation .current_page_item > a,
   .main-navigation .current-menu-item > a,
   .main-navigation .current_page_ancestor > a,
   .main-navigation .current-menu-ancestor > a {
-    text-decoration: underline; }
+    text-decoration: underline;
+    color: white; }
 
 /* Small menu. */
 .menu-toggle,
@@ -815,5 +817,60 @@ textarea {
 .custom-logo {
   height: auto;
   width: 40%; }
+
+/* Footer
+--------------------------------------------- */
+.site-footer {
+  background: linear-gradient(281deg, pink 10%, cyan 74%, black); }
+
+.site-info {
+  padding: 0px 40px 20px;
+  color: black; }
+
+.secondary-navigation {
+  display: block; }
+  .secondary-navigation ul {
+    list-style: none;
+    margin: 2em 0 2em;
+    padding: 20px 40px 0; }
+    .secondary-navigation ul ul {
+      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+      float: left;
+      position: absolute;
+      top: 100%;
+      left: -999em;
+      z-index: 99999; }
+      .secondary-navigation ul ul ul {
+        left: -999em;
+        top: 0; }
+      .secondary-navigation ul ul li:hover > ul, .secondary-navigation ul ul li.focus > ul {
+        display: block;
+        left: auto; }
+      .secondary-navigation ul ul a {
+        width: 200px; }
+    .secondary-navigation ul li:hover > ul,
+    .secondary-navigation ul li.focus > ul {
+      left: auto; }
+  .secondary-navigation li {
+    position: relative;
+    padding: 10px;
+    font-size: medium; }
+    .secondary-navigation li:hover > a, .secondary-navigation li.focus > a {
+      color: white; }
+  .secondary-navigation a {
+    display: block;
+    text-decoration: underline;
+    color: black;
+    font-weight: bolder; }
+  .secondary-navigation .current_page_item > a,
+  .secondary-navigation .current-menu-item > a,
+  .secondary-navigation .current_page_ancestor > a,
+  .secondary-navigation .current-menu-ancestor > a {
+    text-decoration: underline; }
+
+/* Small menu. */
+.menu-toggle,
+.secondary-navigation.toggled ul {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

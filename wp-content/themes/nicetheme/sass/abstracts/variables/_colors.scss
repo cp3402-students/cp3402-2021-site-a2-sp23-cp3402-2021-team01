@@ -1,4 +1,4 @@
-$color__background-body: linear-gradient(347deg, black 1%, tan 85%);
+$color__background-body: linear-gradient(347deg, black 1%, tan 78%, pink);
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
@@ -10,7 +10,7 @@ $color__text-input: #666;
 $color__text-input-focus: #111;
 $color__link: black;
 $color__link-visited: black;
-$color__link-hover: DarkSalmon;
+$color__link-hover: white;
 $color__text-main: antiquewhite;
 
 $color__border-button: #ccc #ccc #bbb;
@@ -23,7 +23,7 @@ $color__border-abbr: #666;
 $color__menu-li: white;
 
 // menu .main-navigation a
-$color__menu-a: tan;
+$color__menu-a: #7ee9e9;
 
 // Menu background color
 $color__background-menu: black;
@@ -32,3 +32,6 @@ $color__background-menu: black;
 $color__text-h1: black;
 
 $sienna: sienna;
+
+// footer background color
+$color__background-footer: linear-gradient(281deg, pink 10%, cyan 74%, black);
