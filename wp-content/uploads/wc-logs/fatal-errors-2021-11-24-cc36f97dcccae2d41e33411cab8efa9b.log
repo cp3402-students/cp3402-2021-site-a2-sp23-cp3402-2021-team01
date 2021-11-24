@@ -1,0 +1,2 @@
+2021-11-24T12:02:17+00:00 CRITICAL Out of memory (allocated 20971520) (tried to allocate 32768 bytes) in C:\xampp\htdocs\assignment2\wp-content\plugins\woocommerce\i18n\states.php on line 991
+
