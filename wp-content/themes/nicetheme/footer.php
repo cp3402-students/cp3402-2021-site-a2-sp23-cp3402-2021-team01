@@ -37,7 +37,7 @@
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'nicetheme' ), 'nicetheme', '<a href="https://github.com/cp3402-students/cp3402-2021-site-a2-sp23-cp3402-2021-team01">Team 1</a>' );
 				?>
-		</div><!-- .site-info -->
+        </div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
