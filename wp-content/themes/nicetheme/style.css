@@ -599,8 +599,7 @@ textarea {
   .main-navigation .current-menu-item > a,
   .main-navigation .current_page_ancestor > a,
   .main-navigation .current-menu-ancestor > a {
-    text-decoration: underline;
-    color: white; }
+    text-decoration: underline; }
 
 /* Small menu. */
 .menu-toggle,
