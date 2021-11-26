@@ -674,6 +674,15 @@ textarea {
 .custom-logo-link {
   display: inline-block; }
 
+.form-row.place-order {
+  color: black; }
+
+.woocommerce-cart table.cart img {
+  width: 250px; }
+
+ul.wc_payment_methods.payment_methods.methods {
+  color: black; }
+
 /* Captions
 --------------------------------------------- */
 .wp-caption {

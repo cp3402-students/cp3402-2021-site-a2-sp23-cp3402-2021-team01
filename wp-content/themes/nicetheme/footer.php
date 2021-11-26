@@ -14,7 +14,7 @@
 	<footer id="colophon" class="site-footer">
 
         <nav id="secondary-navigation" class="secondary-navigation">
-            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Secondary Menu', 'wordpress_test' ); ?></button>
+            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Secondary Menu', 'nicetheme' ); ?></button>
             <?php
             wp_nav_menu(
                 array(
