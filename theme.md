@@ -11,8 +11,10 @@ According to our client's requirements, we were asked to go with black and tan c
 
 # Header and body
 The _colors.scss, _navigation.scss, header.scss and style.scss files were updated and header.scss file was added to define the sizing and to alter the color of the header to black which also matches with the logo. To provide a professional look for the website, cyan colour was chosen for the header text so that it matches with the logo and make it easier for our website users to read. Styling to the menu was also altered along with the logo size.
+![Header](https://user-images.githubusercontent.com/74287829/144378037-e6704e8e-6446-4dee-8d90-12c7ad27a115.png)
+
 A gradient color palette of pink, tan and black which also matches with the logo was chosen for the body.
-![Header](https://user-images.githubusercontent.com/74287829/144364421-0bd499b8-1a65-41f4-9565-68600b8c776a.jpeg)
+![Body](https://user-images.githubusercontent.com/74287829/144378048-db05a1ce-d3e9-448d-811d-5edf908df4a0.png)
 
 # Footer
 The footer.php and functions.php files were edited to create a menu in the footer. The _colors.scss, _navigation.scss, footer.scss and style.scss files were updated to alter the color of the footer to a gradient color palette of pink, cyan and black which also matches with the logo and to define the sizing of the menu in the footer. The text color in the footer is defined as black to maintain a professional look for the website.
